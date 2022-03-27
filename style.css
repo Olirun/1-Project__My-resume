@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section
+{
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+
+/* Раздел Инфо */
+.info
+{
+    background: #f1f1f1;
+    display: flex;
+    width: 900px;
+    height: 300px;
+    border: none;
+    border-radius: 30px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.info img
+{
+    border-radius: 30px;
+    height: 300px;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.desc p
+{
+    margin-top: 10px;
+}
+.links
+{
+    margin-top: 50px;
+}
+.links p
+{
+    margin-top: 10px;
+}
+.links a
+{
+    text-decoration: none;
+    margin-right: 10px;
+}
+/*Конец  раздела Инфо */
+
+/* Раздел Хобби */
+.card
+{
+    background: #e5ffe7;
+    width: 900px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 20px 25px;
+}
+.hobby ol
+{
+    text-align: left;
+    margin-left: 30px;
+    color: grey;
+    margin-top: 10px;
+}
+/* Конец раздела Хобби */
+
+/* Раздел Опыт работы */
+.work
+{
+    background: #fff9dc;
+}
+.work table
+{
+    width: 100%;
+    margin-top: 10px;
+}
+.work td
+{
+    color: grey;
+    padding-bottom: 10px;
+
+}
+.work td:nth-child(1)
+{
+    color: rgb(56, 54, 54);
+}
+
+/* Раздел Связаться со мной */
+.contact
+{
+    background: transparent;
+    padding: 0;
+
+}
+.contact h2
+{
+    text-align: center;
+}
+
+.name_email
+{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+}
+.nm
+{
+    margin-right: 20px;
+}
+.form input
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid grey;
+    padding: 20px 0;
+}
+.form textarea
+{
+    border: none;
+    outline: none;
+    background: transparent; 
+    padding: 20px 0;
+}
+.form .btn
+{
+    background: black;
+    color:white;
+    font-size: 22px;
+    width: 150px;
+}
+/* Конец раздела Связаться со мной */
+
+
+
+
+
+
+
+
+
+
+
