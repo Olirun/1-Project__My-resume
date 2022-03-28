@@ -61,7 +61,6 @@ section
 }
 /*Конец  раздела Инфо */
 
-/* Раздел Хобби */
 .card
 {
     background: #e5ffe7;
@@ -69,6 +68,17 @@ section
     border-radius: 30px;
     margin-bottom: 10px;
     padding: 20px 25px;
+}
+
+/* Раздел Хобби */
+.hobby
+{
+    background: #e5ffe7;
+    width: 900px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 20px 25px;
+    
 }
 .hobby ol
 {
@@ -117,12 +127,17 @@ section
 {
     display:flex;
     justify-content: left;
-    align-items: center;
     margin-top: 10px;
 }
 .nm
 {
     margin-right: 20px;
+
+}
+
+.nm input
+{
+    width: 440px;
 }
 .form input
 {
@@ -132,6 +147,7 @@ section
     border-bottom: 2px solid grey;
     padding: 20px 0;
 }
+
 .form textarea
 {
     border: none;
@@ -151,14 +167,18 @@ section
 
 
 
-@media (max-width:479px)
+
+
+
+@media (max-width:390px)
 {
 
    
     .section
     {
-        width: auto;
-        font-size: 18px;
+        
+        font-size: 15px;
+        width: 100%;
 
     }
 
@@ -167,13 +187,13 @@ section
     {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 100%;
         height: auto;
         margin-top: 0;
     }
     .info img
     {
-        width: auto;
+        width: 100%;
         height: auto;
         border-radius: 0;
         border-bottom-left-radius: 20px;
@@ -184,20 +204,34 @@ section
 /*Конец  раздела Инфо */
 
 /* Раздел Хобби */
-    .card
+    .hobby
     {
-        width: 479px;
+        width: auto;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }  
 /* Конец раздела Хобби */
 
 /* Раздел Опыт работы */
     .work
     {
-        width: 479px;
+        width: 100%;
         height: auto;
     }
 /* Конец раздела Опыт работы */
+
+
+
+
+
+
+
+
+
+
+
 
 /* Раздел Связаться со мной */
 
@@ -205,30 +239,29 @@ section
     {
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
+        width: 100%;
     }
+  
     .name_email
     {
+        display: flex;
         flex-direction: column;
-        margin: auto;
-    }
-    .text label
-    {
-        margin-left: 8px;
-      
-    }
-    .text textarea
-    {
-        margin-left: 8px; 
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
-    .btn
+
+    .nm input
     {
-       margin-left: 35%;
-
-
+        width: 100%;
     }
+
+    .text .btn
+    {
+        margin-left: 30%;
+    }
+
 /* Конец раздела Связаться со мной */
 
 }
