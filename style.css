@@ -99,6 +99,7 @@ section
 {
     color: rgb(56, 54, 54);
 }
+/* Конец раздела Опыт работы */
 
 /* Раздел Связаться со мной */
 .contact
@@ -137,6 +138,7 @@ section
     outline: none;
     background: transparent; 
     padding: 20px 0;
+    width: 900px;
 }
 .form .btn
 {
@@ -149,8 +151,87 @@ section
 
 
 
+@media (max-width:479px)
+{
+
+   
+    .section
+    {
+        width: auto;
+        font-size: 18px;
+
+    }
+
+/* Раздел Инфо */
+    .info
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-top: 0;
+    }
+    .info img
+    {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        align-items: center;
+
+    }
+/*Конец  раздела Инфо */
+
+/* Раздел Хобби */
+    .card
+    {
+        width: 479px;
+        height: auto;
+    }  
+/* Конец раздела Хобби */
+
+/* Раздел Опыт работы */
+    .work
+    {
+        width: 479px;
+        height: auto;
+    }
+/* Конец раздела Опыт работы */
+
+/* Раздел Связаться со мной */
+
+    .contact
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .name_email
+    {
+        flex-direction: column;
+        margin: auto;
+    }
+    .text label
+    {
+        margin-left: 8px;
+      
+    }
+    .text textarea
+    {
+        margin-left: 8px; 
+    }
+
+    .btn
+    {
+       margin-left: 35%;
 
 
+    }
+/* Конец раздела Связаться со мной */
+
+}
 
 
 
