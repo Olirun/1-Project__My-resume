@@ -1,4 +1,4 @@
 # Сайт-резюме
 ### Мой второй самостоятельный(без копирование кода) проект на HTML & CSS
 
-#### Сcылка на сайт - [Резюме](https://olirun.github.io/Project-2_Resume-2/).
+#### Сcылка на сайт - [Резюме](https://olirun.github.io/1-Project__My-resume/).
